@@ -14,6 +14,7 @@
 		A44F6E1B1F9E50D4007D5570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F6E191F9E50D4007D5570 /* LaunchScreen.storyboard */; };
 		A44F6E261F9E50D4007D5570 /* Rent_A_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F6E251F9E50D4007D5570 /* Rent_A_FriendTests.swift */; };
 		A44F6E311F9E50D4007D5570 /* Rent_A_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F6E301F9E50D4007D5570 /* Rent_A_FriendUITests.swift */; };
+		A44F6E401F9E5106007D5570 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44F6E3F1F9E5106007D5570 /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A44F6E2C1F9E50D4007D5570 /* Rent A FriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rent A FriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44F6E301F9E50D4007D5570 /* Rent_A_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rent_A_FriendUITests.swift; sourceTree = "<group>"; };
 		A44F6E321F9E50D4007D5570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F6E3F1F9E5106007D5570 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44F6E401F9E5106007D5570 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				A44F6E241F9E50D4007D5570 /* Rent A FriendTests */,
 				A44F6E2F1F9E50D4007D5570 /* Rent A FriendUITests */,
 				A44F6E0E1F9E50D4007D5570 /* Products */,
+				A44F6E3E1F9E5106007D5570 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				A44F6E321F9E50D4007D5570 /* Info.plist */,
 			);
 			path = "Rent A FriendUITests";
+			sourceTree = "<group>";
+		};
+		A44F6E3E1F9E5106007D5570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44F6E3F1F9E5106007D5570 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
