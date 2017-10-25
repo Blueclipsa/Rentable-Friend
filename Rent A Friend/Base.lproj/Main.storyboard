@@ -152,9 +152,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="yi1-oa-vJa" kind="show" id="iNz-sb-lcl"/>
-                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Answer Friend Calls here" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fw3-ub-oSY">
                                 <rect key="frame" x="16" y="197" width="240" height="48"/>
